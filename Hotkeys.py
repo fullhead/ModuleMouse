@@ -34,21 +34,19 @@ keyboard.add_hotkey('T', lambda: mouse.move(766, 444, duration=0.01)),
 # Желые дома
 keyboard.add_hotkey('D', lambda: mouse.move(1161, 116, duration=0.01)),
 keyboard.add_hotkey('D', lambda: mouse.click("left")),
-keyboard.add_hotkey('D', lambda: mouse.move(1266, 290, duration=0.1)),
-keyboard.add_hotkey('D', lambda: mouse.click("left")),
-keyboard.add_hotkey('D', lambda: mouse.move(1280, 343, duration=0.01)),
+keyboard.add_hotkey('D', lambda: mouse.move(1229, 599, duration=0.1)),
 keyboard.add_hotkey('D', lambda: mouse.click("left")),
 
 # Постройка
 keyboard.add_hotkey('F', lambda: mouse.move(1161, 116, duration=0.01)),
 keyboard.add_hotkey('F', lambda: mouse.click("left")),
-keyboard.add_hotkey('F', lambda: mouse.move(1266, 290, duration=0.01)),
+keyboard.add_hotkey('F', lambda: mouse.move(1230, 654, duration=0.1)),
 keyboard.add_hotkey('F', lambda: mouse.click("left")),
-keyboard.add_hotkey('F', lambda: mouse.move(1212, 232, duration=0.01)),
+
+# Религия
+keyboard.add_hotkey('F', lambda: mouse.move(1161, 116, duration=0.01)),
 keyboard.add_hotkey('F', lambda: mouse.click("left")),
-keyboard.add_hotkey('F', lambda: mouse.move(1254, 355, duration=0.01)),
-keyboard.add_hotkey('F', lambda: mouse.click("left")),
-keyboard.add_hotkey('F', lambda: mouse.move(1280, 341, duration=0.2)),
+keyboard.add_hotkey('F', lambda: mouse.move(1218, 716, duration=0.1)),
 keyboard.add_hotkey('F', lambda: mouse.click("left")),
 
 # Образование
@@ -62,17 +60,5 @@ keyboard.add_hotkey('G', lambda: mouse.move(1235, 467, duration=0.01)),
 keyboard.add_hotkey('G', lambda: mouse.click("left")),
 keyboard.add_hotkey('G', lambda: mouse.move(1280, 341, duration=0.2)),
 keyboard.add_hotkey('G', lambda: mouse.click("left")),
-
-# Религия
-keyboard.add_hotkey('H', lambda: mouse.move(1161, 116, duration=0.01)),
-keyboard.add_hotkey('H', lambda: mouse.click("left")),
-keyboard.add_hotkey('H', lambda: mouse.move(1266, 290, duration=0.01)),
-keyboard.add_hotkey('H', lambda: mouse.click("left")),
-keyboard.add_hotkey('H', lambda: mouse.move(1212, 232, duration=0.01)),
-keyboard.add_hotkey('H', lambda: mouse.click("left")),
-keyboard.add_hotkey('H', lambda: mouse.move(1234, 472, duration=0.01)),
-keyboard.add_hotkey('H', lambda: mouse.click("left")),
-keyboard.add_hotkey('H', lambda: mouse.move(1280, 341, duration=0.2)),
-keyboard.add_hotkey('H', lambda: mouse.click("left")),
 
 keyboard.wait('Ctrl + Alt + Q')
